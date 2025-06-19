@@ -182,8 +182,4 @@ https://localhost:5001/swagger
 
 Os testes estão organizados em `VehicleRental.Tests/` e cobrem cenários de unidade e integração.
 
----
 
-## 📬 Suporte & Contribuições
-
-Sinta-se à vontade para abrir issues, enviar sugestões ou contribuir com melhorias na plataforma. 🚀
