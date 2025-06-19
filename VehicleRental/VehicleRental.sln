@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleRentalAPI", "VehicleRentalAPI\VehicleRentalAPI.csproj", "{63CBCAE4-D0DC-493D-A388-C59EB551EB47}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleRental.Application", "VehicleRental.Application\VehicleRental.Application.csproj", "{03A4148D-1257-4E63-86C0-BB3E00E979ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleRental.Infrastructure", "VehicleRental.Infrastructure\VehicleRental.Infrastructure.csproj", "{5B5282A4-38A4-4366-A82E-01CEBD74C985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleRental.Notify", "VehicleRental.Notify\VehicleRental.Notify.csproj", "{60EAFBF5-066A-427C-9F1D-E8E2FFE77894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleRental.Test", "VehicleRental.Test\VehicleRental.Test.csproj", "{669F3B16-146D-4E2C-B127-53D124DFD245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{5B5282A4-38A4-4366-A82E-01CEBD74C985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B5282A4-38A4-4366-A82E-01CEBD74C985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B5282A4-38A4-4366-A82E-01CEBD74C985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EAFBF5-066A-427C-9F1D-E8E2FFE77894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EAFBF5-066A-427C-9F1D-E8E2FFE77894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EAFBF5-066A-427C-9F1D-E8E2FFE77894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EAFBF5-066A-427C-9F1D-E8E2FFE77894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669F3B16-146D-4E2C-B127-53D124DFD245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669F3B16-146D-4E2C-B127-53D124DFD245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669F3B16-146D-4E2C-B127-53D124DFD245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669F3B16-146D-4E2C-B127-53D124DFD245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{92AF5B32-EE4B-46D2-A75A-5D2FC0647EC9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{03A4148D-1257-4E63-86C0-BB3E00E979ED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{5B5282A4-38A4-4366-A82E-01CEBD74C985} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{60EAFBF5-066A-427C-9F1D-E8E2FFE77894} = {9AB3ADD8-0CFA-4713-B0CF-F579DF4F23A0}
+		{669F3B16-146D-4E2C-B127-53D124DFD245} = {D2983304-9BA7-4597-B45F-C07E16ECCE2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F79D6FD-45EF-4C8C-9D37-759ACC470FA1}

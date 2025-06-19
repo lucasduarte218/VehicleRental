@@ -7,13 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\Base\" />
-    <Folder Include="Middlewares\" />
-    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>

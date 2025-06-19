@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Integrations\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="4.0.1.7" />
+    <PackageReference Include="AWSSDK.SQS" Version="4.0.0.11" />
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VehicleRental.Application\VehicleRental.Application.csproj" />
     <ProjectReference Include="..\VehicleRental.Domain\VehicleRental.Domain.csproj" />
   </ItemGroup>
 
